@@ -116,7 +116,7 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
-        <div class="clearfix"></div>
+        <div className="clearfix"></div>
         </>
 );
 }

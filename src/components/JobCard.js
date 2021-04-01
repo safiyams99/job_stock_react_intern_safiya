@@ -41,7 +41,7 @@ const JobCard = ({ pic, heading, word, icon, Job,jobType, location, price,premiu
               </p>
             </li>
           </ul>
-          {premium && <span class="tg-themetag tg-featuretag">Premium</span>}
+          {premium && <span className="tg-themetag tg-featuretag">Premium</span>}
         </div>
       </div>
     </>

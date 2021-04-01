@@ -93,7 +93,7 @@ const Footer = ()=>{
         </div>
         <div className="row copyright">
             <div className="container">
-                <p><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></p>
+                <p><a target="#" href="#">Templates Hub</a></p>
             </div>
         </div>
     </footer>

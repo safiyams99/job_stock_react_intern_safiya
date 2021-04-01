@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Templates/Job-Stock-Job-Board-Template/.idea/Job-Stock-Job-Board-Template.iml" filepath="$PROJECT_DIR$/../Templates/Job-Stock-Job-Board-Template/.idea/Job-Stock-Job-Board-Template.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/job-stock-safiya.iml" filepath="$PROJECT_DIR$/.idea/job-stock-safiya.iml" />
     </modules>
   </component>

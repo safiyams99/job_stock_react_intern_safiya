@@ -1,14 +1,14 @@
 import React from "react";
-import WorkCard from "/src/components/WorkCard";
-import { Account_Data } from "../data/details";
+import WorkCard from "../components/WorkCard";
+/*import { Account_Data } from "../data/details";*/
 
 function HowitWorks() {
   return (
     <section className="how-it-works">
       <div className="container">
-        <div classNameName="row" data-aos="fade-up">
+        <div className="row" data-aos="fade-up">
           <div className="col-md-12">
-               <div class="main-heading">
+               <div className="main-heading">
                     <p>Working Process</p>
                     <h2>How It <span>Works</span></h2>
                 </div>
@@ -16,7 +16,7 @@ function HowitWorks() {
         </div>
         <div className="row">
           
-              {Account_Data.map((data,index) => {
+              {/*{Account_Data.map((data,index) => {
                 const { icon, heading, description } = data;
                 return (
                   <WorkCard
@@ -27,7 +27,7 @@ function HowitWorks() {
                     description={description}
                   />
                 );
-              })}
+              })}*/}
            </div>
       </div>
     </section>

@@ -11,7 +11,7 @@ const Banner = ({bgImg,title})=> {
           <h1>{title}</h1>
         </div>
       </section>
-      <div class="clearfix"></div>
+      <div className="clearfix"></div>
     </>
   )
 }

@@ -70,7 +70,7 @@ const SearchBar = () => {
                 </div>
             </div>
         </div>
-        <div class="clearfix"></div>
+        <div className="clearfix"></div>
         </>
     )
 }
