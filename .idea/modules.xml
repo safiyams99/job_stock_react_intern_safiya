@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../React_Internship_Safiya_main/.idea/React-internship-sanjna-main.iml" filepath="$PROJECT_DIR$/../React_Internship_Safiya_main/.idea/React-internship-sanjna-main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/job-stock-safiya.iml" filepath="$PROJECT_DIR$/.idea/job-stock-safiya.iml" />
     </modules>
   </component>
