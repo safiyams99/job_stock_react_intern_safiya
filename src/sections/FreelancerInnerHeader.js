@@ -57,7 +57,7 @@ const FreelancerInnerHeader =({name, designation, location, hourlyRate,verified,
                                 })}
                             </ul>
                             <ul className="social-info">
-                                {FreelancerData[18].portfolio.map((data) => {
+                                {FreelancerData[0].portfolio.map((data) => {
                                     return (
                                         <SocialInfo
                                         key = {data.id}
