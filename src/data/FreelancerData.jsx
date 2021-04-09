@@ -12,7 +12,7 @@ const FreelancerData = [
         id: 0,
         name:"Janelia Fragrintio",
         designation:"Full Stack PHP Developer",
-        profile:"company-detail.html",
+        profile:img2,
         place: "Mack Star",
         location:"United Kingdom",
         availability:"Full Time",
@@ -34,41 +34,24 @@ const FreelancerData = [
             }
         ],
         rating:"4.2",
-        verified:"Verified",
-        skills:[
-            {
-                html: "HTML5",
-                css: "CSS3",
-                photoshop: "Photoshop",
-                wordpress: "Wordpress",
-                php: "PHP",
-                js:"JavaScript"
-
-            }
-        ],
-        hourlyRate:"$44/hr",
+        verified:true,
+        skills:[ "PHP","Android","HTML","CSS3","Photoshop","Wordpress","JavaScript"],
+        hourlyRate:44,
         jobsDone:70,
         rehired:10,
-        languages:[
+        languages:["English","French","Dutch"],
+        portfolio:
             {
-                english: "English",
-                french: "French",
-                hindi: "Hindi",
-                urdu: "Urdu"
-            }
-        ],
-        portfolio:[
-            {
-                web:"",
-                blog:"",
-                portfolio:"",
+                web:"www.mywebsite.com",
+                blog:"My blog",
+                portfolio:"my Portfolio",
                 facebook:"fa fa-facebook",
                 linkedin:"fa fa-linkedin",
                 pinterest:"fa fa-pinterest",
                 instagram:"fa fa-instagram",
                 twitter:"fa fa-twitter"
-            }
-        ],
+            },
+
         online:true,
         reviews:[
             {
@@ -114,6 +97,334 @@ const FreelancerData = [
                     "                    molestias excepturi sint occaecati cupiditate non provident, similique sunt\n" +
                     "                    in culpa qui officia deserunt mollitia animi, id est laborum et dolorum\n" +
                     "                    fuga."
+            }
+        ]
+    },
+    {
+        id:1,
+        name:"Agustin L. Smith",
+        designation:"At vero eos et accusamus et iusto odio dignissimos ducimus qui.",
+        profile:img1,
+        place: "",
+        location:"Australia",
+        availability:"Available",
+        age:20,
+        phone:"",
+        experience:"",
+        description:"",
+        rating:"",
+        verified:true,
+        skills:["PHP", "Android", "HTML"],
+        hourlyRate:17,
+        jobsDone:70,
+        rehired:10,
+        languages:[],
+        portfolio:[
+            {
+                web:"",
+                blog:"",
+                portfolio:"",
+                facebook:"",
+                linkdin:"",
+                pintererst:"",
+                instagram:"",
+                twitter:""
+            }
+        ],
+        online:true,
+        reviews:[
+            {
+                clientName:"",
+                tagline:"",
+                time:"",
+                message:""
+            }
+        ]
+    },
+    {
+        id:2,
+        name:"Delores R. Williams",
+        designation:"At vero eos et accusamus et iusto odio dignissimos ducimus qui.",
+        profile:img4,
+        place: "",
+        location:"United States",
+        availability:"At Work",
+        age:20,
+        phone:"",
+        experience:"",
+        description:"",
+        rating:"",
+        verified:true,
+        skills:["PHP", "Android", "HTML"],
+        hourlyRate:22,
+        jobsDone:70,
+        rehired:10,
+        languages:[],
+        portfolio:[
+            {
+                web:"",
+                blog:"",
+                portfolio:"",
+                facebook:"",
+                linkdin:"",
+                pintererst:"",
+                instagram:"",
+                twitter:""
+            }
+        ],
+        online:true,
+        reviews:[
+            {
+                clientName:"",
+                tagline:"",
+                time:"",
+                message:""
+            }
+        ]
+    },
+    {
+        id:3,
+        name:"Daniel Disroyer",
+        designation:"At vero eos et accusamus et iusto odio dignissimos ducimus qui.",
+        profile:img3,
+        place: "",
+        location:"Bangladesh",
+        availability:"Available",
+        age:20,
+        phone:"",
+        experience:"",
+        description:"",
+        rating:"",
+        verified:true,
+        skills:["PHP", "Android", "HTML"],
+        hourlyRate:19,
+        jobsDone:70,
+        rehired:10,
+        languages:[],
+        portfolio:[
+            {
+                web:"",
+                blog:"",
+                portfolio:"",
+                facebook:"",
+                linkdin:"",
+                pintererst:"",
+                instagram:"",
+                twitter:""
+            }
+        ],
+        online:true,
+        reviews:[
+            {
+                clientName:"",
+                tagline:"",
+                time:"",
+                message:""
+            }
+        ]
+    },
+    {
+        id:4,
+        name:"Nancy D. Walker",
+        designation:"At vero eos et accusamus et iusto odio dignissimos ducimus qui.",
+        profile:img2,
+        place: "",
+        location:"Indonesia",
+        availability:"Busy",
+        age:20,
+        phone:"",
+        experience:"",
+        description:"",
+        rating:"",
+        verified:true,
+        skills:["PHP", "Android", "HTML"],
+        hourlyRate:32,
+        jobsDone:70,
+        rehired:10,
+        languages:[],
+        portfolio:[
+            {
+                web:"",
+                blog:"",
+                portfolio:"",
+                facebook:"",
+                linkdin:"",
+                pintererst:"",
+                instagram:"",
+                twitter:""
+            }
+        ],
+        online:true,
+        reviews:[
+            {
+                clientName:"",
+                tagline:"",
+                time:"",
+                message:""
+            }
+        ]
+    },
+    {
+        id:5,
+        name:"Larry A. Sherrod",
+        designation:"At vero eos et accusamus et iusto odio dignissimos ducimus qui.",
+        profile:img1,
+        place: "",
+        location:"India",
+        availability:"Available",
+        age:20,
+        phone:"",
+        experience:"",
+        description:"",
+        rating:"",
+        verified:true,
+        skills:["PHP", "Android", "HTML"],
+        hourlyRate:25,
+        jobsDone:70,
+        rehired:10,
+        languages:[],
+        portfolio:[
+            {
+                web:"",
+                blog:"",
+                portfolio:"",
+                facebook:"",
+                linkdin:"",
+                pintererst:"",
+                instagram:"",
+                twitter:""
+            }
+        ],
+        online:true,
+        reviews:[
+            {
+                clientName:"",
+                tagline:"",
+                time:"",
+                message:""
+            }
+        ]
+    },
+    {
+        id:6,
+        name:"Eva J. Simmon",
+        designation:"At vero eos et accusamus et iusto odio dignissimos ducimus qui.",
+        profile:img4,
+        place: "",
+        location:"Australia",
+        availability:"No Available",
+        age:20,
+        phone:"",
+        experience:"",
+        description:"",
+        rating:"",
+        verified:true,
+        skills:["PHP", "Android", "HTML"],
+        hourlyRate:29,
+        jobsDone:70,
+        rehired:10,
+        languages:[],
+        portfolio:[
+            {
+                web:"",
+                blog:"",
+                portfolio:"",
+                facebook:"",
+                linkdin:"",
+                pintererst:"",
+                instagram:"",
+                twitter:""
+            }
+        ],
+        online:true,
+        reviews:[
+            {
+                clientName:"",
+                tagline:"",
+                time:"",
+                message:""
+            }
+        ]
+    },
+    {
+        id:7,
+        name:"George M. Johnson",
+        designation:"At vero eos et accusamus et iusto odio dignissimos ducimus qui.",
+        profile:img3,
+        place: "",
+        location:"Australia",
+        availability:"Available",
+        age:20,
+        phone:"",
+        experience:"",
+        description:"",
+        rating:"",
+        verified:true,
+        skills:["PHP", "Android", "HTML"],
+        hourlyRate:17,
+        jobsDone:70,
+        rehired:10,
+        languages:[],
+        portfolio:[
+            {
+                web:"",
+                blog:"",
+                portfolio:"",
+                facebook:"",
+                linkdin:"",
+                pintererst:"",
+                instagram:"",
+                twitter:""
+            }
+        ],
+        online:true,
+        reviews:[
+            {
+                clientName:"",
+                tagline:"",
+                time:"",
+                message:""
+            }
+        ]
+    },
+    {
+        id:8,
+        name:"Ray D. Ramirez",
+        designation:"At vero eos et accusamus et iusto odio dignissimos ducimus qui.",
+        profile:img1,
+        place: "",
+        location:"Canada",
+        availability:"Available",
+        age:20,
+        phone:"",
+        experience:"",
+        description:"",
+        rating:"",
+        verified:true,
+        skills:["PHP", "Android", "HTML"],
+        hourlyRate:47,
+        jobsDone:70,
+        rehired:10,
+        languages:[],
+        portfolio:[
+            {
+                web:"",
+                blog:"",
+                portfolio:"",
+                facebook:"",
+                linkdin:"",
+                pintererst:"",
+                instagram:"",
+                twitter:""
+            }
+        ],
+        online:true,
+        reviews:[
+            {
+                clientName:"",
+                tagline:"",
+                time:"",
+                message:""
             }
         ]
     }
@@ -170,5 +481,13 @@ const SocialShareData = [
     }
 ]
 
-export {FreelancerData, StarRatingData, SimilarProfileData, SocialShareData}
+const Freelancer2InnerHeaderData = [
+    {
+        heading:"Hire The Best UI Specialists",
+        tagline:"Work with the world’s best talent on Upwork — the top freelancing website trusted by over 5\n" +
+            "                        million businesses."
+    }
+]
+
+export {FreelancerData, StarRatingData, SimilarProfileData, SocialShareData, Freelancer2InnerHeaderData}
 
