@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import { Link } from "react-router-dom";
 
 const SingleCompanyCard = ({name,tagline,logo,location,companyPosition}) => {
     return(
@@ -13,7 +14,7 @@ const SingleCompanyCard = ({name,tagline,logo,location,companyPosition}) => {
                         </div>
                         <div className="col-md-4 col-sm-4">
                             <div className="brows-company-name">
-                                <a href="company-detail.html"><h4>{name}</h4></a>
+                                <Link href="company-detail.html"><h4>{name}</h4></Link>
                                 <span className="brows-company-tagline">{tagline}</span>
                             </div>
                         </div>

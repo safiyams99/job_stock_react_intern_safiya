@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import SearchFilter from "../components/Freelancers2/SearchFilter";
-import {CompanyData} from "../data/CompanyData";
+import CompanyData from "../data/Data";
 import SingleCompanyCard from "../components/SingleCompanyCard";
-import Banner from "../components/Banner";
+import Banner  from "../components/Banner";
 import bannerImg from "../img/banner-10.jpg"
 
 const BrowseCompanySection = () => {
@@ -14,9 +15,9 @@ const BrowseCompanySection = () => {
                     <SearchFilter />
                     <>
                         {CompanyData.map((companyData, key) => {
-                            const {name, tagline, logo, location, companyPosition} = companyData
+                            const {name, tagline, profileImg, location, companyPosition} = companyData
                             return(
-                                <SingleCompanyCard key={key} name={name} tagline={tagline} logo={logo}
+                                <SingleCompanyCard key={key} name={name} tagline={tagline} profileImg={profileImg}
                                 location={location} companyPosition={companyPosition}/>
                             );
                         })}
@@ -24,13 +25,13 @@ const BrowseCompanySection = () => {
 
                     <div className="row">
                         <ul className="pagination">
-                            <li><a href="#">&laquo;</a></li>
+                            <li><Link href="#">&laquo;</Link></li>
                             <li className="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#"><i className="fa fa-ellipsis-h"></i></a></li>
-                            <li><a href="#">&raquo;</a></li>
+                            <li><Link href="#">2</Link></li>
+                            <li><Link href="#">3</Link></li>
+                            <li><Link href="#">4</Link></li>
+                            <li><Link href="#"><i className="fa fa-ellipsis-h"></i></Link></li>
+                            <li><Link href="#">&raquo;</Link></li>
                         </ul>
                     </div>
 
